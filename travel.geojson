@@ -1,0 +1,481 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Travels"
+  },
+  "features": [
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "2014"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -104.85,
+              39.76
+            ]
+          },
+          "properties": {
+            "date": "2014-01-15",
+            "name": "Denver"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "2013"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -81.78,
+              24.558
+            ]
+          },
+          "properties": {
+            "date": "2013-12-28",
+            "name": "Key West"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -81.699,
+              25.935
+            ]
+          },
+          "properties": {
+            "date": "2013-12-24",
+            "name": "Marco Island"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -80.149,
+              26.141
+            ]
+          },
+          "properties": {
+            "date": "2013-12-22",
+            "name": "Fort Lauderdale"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.791,
+              43.451
+            ]
+          },
+          "properties": {
+            "date": "2013-08-19",
+            "name": "Fréjus"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.253,
+              43.703
+            ]
+          },
+          "properties": {
+            "date": "2013-08-18",
+            "name": "Nice"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.466,
+              50.06
+            ]
+          },
+          "properties": {
+            "date": "2013-04-03",
+            "name": "Prague"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -3.68,
+              40.438
+            ]
+          },
+          "properties": {
+            "date": "2013-03-07",
+            "name": "Madrid"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -117.1,
+              32.82
+            ]
+          },
+          "properties": {
+            "date": "2013-01-15",
+            "name": "San Diego"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "2012"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -80.231,
+              25.782
+            ]
+          },
+          "properties": {
+            "date": "2012-01-15",
+            "name": "Miami"
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "London",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.101,
+              51.528
+            ]
+          },
+          "properties": {
+            "date": "2012"
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "Ipswitch",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.160,
+              52.053
+            ]
+          },
+          "properties": {
+            "date": "2012"
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "Les Arcs",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.486,
+              43.453
+            ]
+          },
+          "properties": {
+            "date": "2012-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "2011"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.958,
+              45.474
+            ]
+          },
+          "properties": {
+            "date": "2011-03-12",
+            "name": "Tignes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.761,
+              52.38
+            ]
+          },
+          "properties": {
+            "date": "2011-06-17",
+            "name": "Hannover"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.542,
+              48.155
+            ]
+          },
+          "properties": {
+            "date": "2011-06-18",
+            "name": "München"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.622,
+              46.012
+            ]
+          },
+          "properties": {
+            "date": "2011-06-19",
+            "name": "Soca"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.943,
+              49.778
+            ]
+          },
+          "properties": {
+            "date": "2011-06-26",
+            "name": "Würzburg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "2010"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.352,
+              61.657
+            ]
+          },
+          "properties": {
+            "date": "2010-07-14",
+            "name": "Sjoa"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.595,
+              58.184
+            ]
+          },
+          "properties": {
+            "date": "2010-07-14",
+            "name": "Orust"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              139.710,
+              35.673
+            ]
+          },
+          "properties": {
+            "date": "2010-10-04",
+            "name": "Tokyo"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              135.761,
+              35.006
+            ]
+          },
+          "properties": {
+            "date": "2010-10-04",
+            "name": "Kyoto"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "2009"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              85.326,
+              27.708
+            ]
+          },
+          "properties": {
+            "date": "2009-09-08",
+            "name": "Kathmandu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              83.984,
+              28.215
+            ]
+          },
+          "properties": {
+            "date": "2009-09-08",
+            "name": "Pokhara"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              84.425,
+              27.465
+            ]
+          },
+          "properties": {
+            "date": "2009-09-08",
+            "name": "Chitwan"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.090,
+              28.645
+            ]
+          },
+          "properties": {
+            "date": "2009-09-08",
+            "name": "New Delhi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.980,
+              27.176
+            ]
+          },
+          "properties": {
+            "date": "2009-09-08",
+            "name": "Agra"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
+        "year": "Always"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              17.988,
+              59.326
+            ]
+          },
+          "properties": {
+            "name": "Stockholm"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              11.917,
+              57.452
+            ]
+          },
+          "properties": {
+            "name": "Lerkil"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.97,
+              55.42
+            ]
+          },
+          "properties": {
+            "name": "Kämpinge"
+          }
+        }
+      ]
+    }
+  ]
+}
