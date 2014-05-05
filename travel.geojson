@@ -23,6 +23,20 @@
             "date": "2014-01-15",
             "name": "Denver"
           }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -43.20,
+              -22.91
+            ]
+          },
+          "properties": {
+            "date": "2014-05-05",
+            "name": "Rio de Janeiro"
+          }
         }
       ]
     },
