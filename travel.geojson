@@ -37,6 +37,34 @@
             "date": "2014-05-05",
             "name": "Rio de Janeiro"
           }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -3.68,
+              40.44
+            ]
+          },
+          "properties": {
+            "date": "2014-06-09",
+            "name": "Madrid"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              15.28,
+              37.85
+            ]
+          },
+          "properties": {
+            "date": "2014-06-21",
+            "name": "Taormina"
+          }
         }
       ]
     },
