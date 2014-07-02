@@ -20,6 +20,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2014-01-15",
             "name": "Denver"
           }
@@ -34,6 +35,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2014-05-05",
             "name": "Rio de Janeiro"
           }
@@ -48,6 +50,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2014-06-09",
             "name": "Madrid"
           }
@@ -62,6 +65,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2014-06-21",
             "name": "Taormina"
           }
@@ -84,6 +88,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2013-12-28",
             "name": "Key West"
           }
@@ -98,6 +103,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2013-12-24",
             "name": "Marco Island"
           }
@@ -112,6 +118,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2013-12-22",
             "name": "Fort Lauderdale"
           }
@@ -126,6 +133,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2013-08-19",
             "name": "Fréjus"
           }
@@ -140,6 +148,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2013-08-18",
             "name": "Nice"
           }
@@ -154,6 +163,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2013-04-03",
             "name": "Prague"
           }
@@ -168,6 +178,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2013-03-07",
             "name": "Madrid"
           }
@@ -182,6 +193,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2013-01-15",
             "name": "San Diego"
           }
@@ -204,13 +216,13 @@
             ]
           },
           "properties": {
+            "marker-symbol": "airport",
             "date": "2012-01-15",
             "name": "Miami"
           }
         },
         {
           "type": "Feature",
-          "id": "London",
           "geometry": {
             "type": "Point",
             "coordinates": [
@@ -219,12 +231,13 @@
             ]
           },
           "properties": {
-            "date": "2012"
+            "marker-symbol": "airport",
+            "date": "2012",
+            "name": "London"
           }
         },
         {
           "type": "Feature",
-          "id": "Ipswitch",
           "geometry": {
             "type": "Point",
             "coordinates": [
@@ -233,12 +246,13 @@
             ]
           },
           "properties": {
-            "date": "2012"
+            "marker-symbol": "airport",
+            "date": "2012",
+            "name": "Ipswitch"
           }
         },
         {
           "type": "Feature",
-          "id": "Les Arcs",
           "geometry": {
             "type": "Point",
             "coordinates": [
@@ -247,7 +261,9 @@
             ]
           },
           "properties": {
-            "date": "2012-02-18"
+            "marker-symbol": "school",
+            "date": "2012-02-18",
+            "name": "Les Arcs"
           }
         }
       ]
@@ -268,6 +284,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2011-03-12",
             "name": "Tignes"
           }
@@ -282,6 +299,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2011-06-17",
             "name": "Hannover"
           }
@@ -296,6 +314,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2011-06-18",
             "name": "München"
           }
@@ -310,6 +329,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2011-06-19",
             "name": "Soca"
           }
@@ -324,6 +344,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2011-06-26",
             "name": "Würzburg"
           }
@@ -346,6 +367,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2010-07-14",
             "name": "Sjoa"
           }
@@ -360,6 +382,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2010-07-14",
             "name": "Orust"
           }
@@ -374,6 +397,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2010-10-04",
             "name": "Tokyo"
           }
@@ -388,6 +412,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2010-10-04",
             "name": "Kyoto"
           }
@@ -410,6 +435,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2009-09-08",
             "name": "Kathmandu"
           }
@@ -424,6 +450,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2009-09-08",
             "name": "Pokhara"
           }
@@ -438,6 +465,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2009-09-08",
             "name": "Chitwan"
           }
@@ -452,6 +480,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2009-09-08",
             "name": "New Delhi"
           }
@@ -466,6 +495,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "date": "2009-09-08",
             "name": "Agra"
           }
@@ -488,6 +518,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "name": "Stockholm"
           }
         },
@@ -501,6 +532,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "school",
             "name": "Lerkil"
           }
         },
@@ -514,6 +546,7 @@
             ]
           },
           "properties": {
+            "marker-symbol": "building",
             "name": "Kämpinge"
           }
         }
