@@ -552,6 +552,96 @@
             "date": "2007-09-19",
             "name": "Casablanca"
           }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -6.43,
+              33.66
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2007-09-22",
+            "name": "Rabat"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -4.14,
+              33.45
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2007-09-24",
+            "name": "Fes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -5.59,
+              31.59
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2007-09-28",
+            "name": "Todra Gorge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -7.91,
+              31.06
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2007-10-01",
+            "name": "Toubkal"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -9.76,
+              31.51
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2007-10-01",
+            "name": "Essaouira"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -8.01,
+              31.63
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2007-10-04",
+            "name": "Marrakech"
+          }
         }
       ]
     },
