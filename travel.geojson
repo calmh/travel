@@ -69,6 +69,51 @@
             "date": "2014-06-21",
             "name": "Taormina"
           }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.96,
+              50.95
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2014-10-09",
+            "name": "Cologne"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -99.15,
+              19.32
+            ]
+          },
+          "properties": {
+            "marker-symbol": "airport",
+            "date": "2014-11-03",
+            "name": "Mexico City"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+	    55.23,
+	    25.07
+            ]
+          },
+          "properties": {
+            "marker-symbol": "airport",
+            "date": "2014-11-17",
+            "name": "Dubai"
+          }
         }
       ]
     },
