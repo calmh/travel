@@ -7,6 +7,59 @@
     {
       "type": "FeatureCollection",
       "properties": {
+        "year": "2015"
+      },
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -118.41,
+              33.89
+            ]
+          },
+          "properties": {
+            "marker-symbol": "airport",
+            "date": "2015-01-17",
+            "name": "Los Angeles"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              99.94,
+              12.59
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2015-02-20",
+            "name": "Hua Hin"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              100.63,
+              13.72
+            ]
+          },
+          "properties": {
+            "marker-symbol": "school",
+            "date": "2015-02-22",
+            "name": "Bangkok"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "properties": {
         "year": "2014"
       },
       "features": [
