@@ -15,6 +15,20 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
+	    10.203921,56.162939
+            ]
+          },
+          "properties": {
+            "marker-symbol": "airport",
+            "date": "2015-03-11",
+            "name": "Aarhus"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
               -118.41,
               33.89
             ]
@@ -319,6 +333,20 @@
             "marker-symbol": "airport",
             "date": "2012-01-15",
             "name": "Miami"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+	    11.255814,43.769560
+            ]
+          },
+          "properties": {
+            "marker-symbol": "airport",
+            "date": "2012-04-16",
+            "name": "Florence"
           }
         },
         {
