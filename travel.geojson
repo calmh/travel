@@ -19,6 +19,22 @@
     {
       "geometry": {
         "coordinates": [
+          28.97696,
+          41.00527
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-02-16",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "w",
+        "name": "İstanbul, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -118.243685,
           34.052234
         ],
