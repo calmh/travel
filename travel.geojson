@@ -3,640 +3,48 @@
     {
       "geometry": {
         "coordinates": [
-          10.203921,
-          56.162939
+          12.983333,
+          55.4
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2015-03-11",
-        "marker-color": "#a6cee3",
-        "marker-symbol": "w",
-        "name": "Aarhus, Denmark"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          28.97696,
-          41.00527
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2015-02-16",
-        "marker-color": "#a6cee3",
-        "marker-symbol": "w",
-        "name": "İstanbul, Turkey"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -118.243685,
-          34.052234
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2015-01-17",
-        "marker-color": "#a6cee3",
-        "marker-symbol": "w",
-        "name": "Los Angeles, CA, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          99.957689,
-          12.568375
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2015-02-20",
+        "date": "2000-01-01",
         "marker-color": "#a6cee3",
         "marker-symbol": "p",
-        "name": "Hua Hin, Hua Hin District, Prachuap Khiri Khan, Thailand"
+        "name": "236 35 Kämpinge, Sweden"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          100.501765,
-          13.756331
+          11.91676,
+          57.45263
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2015-02-22",
+        "date": "2000-01-01",
         "marker-color": "#a6cee3",
         "marker-symbol": "p",
-        "name": "Bangkok, Thailand"
+        "name": "434 93 Lerkil, Sweden"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          -104.990251,
-          39.739236
+          18.068581,
+          59.329323
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2014-01-15",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "w",
-        "name": "Denver, CO, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -43.172897,
-          -22.906847
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2014-05-05",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "w",
-        "name": "Rio de Janeiro - State of Rio de Janeiro, Brazil"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -3.70379,
-          40.416775
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2014-06-09",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "w",
-        "name": "Madrid, Madrid, Spain"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          15.285313,
-          37.851637
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2014-06-21",
-        "marker-color": "#1f78b4",
+        "date": "2000-01-01",
+        "marker-color": "#a6cee3",
         "marker-symbol": "p",
-        "name": "Taormina ME, Italy"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          6.960279,
-          50.937531
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2014-10-09",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "p",
-        "name": "Cologne, Germany"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -99.133208,
-          19.432608
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2014-11-03",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "w",
-        "name": "Mexico City, Federal District, Mexico"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          55.270783,
-          25.204849
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2014-11-17",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "w",
-        "name": "Dubai - Dubai - United Arab Emirates"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -81.779987,
-          24.555059
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-12-28",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "p",
-        "name": "Key West, FL 33040, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -81.707535,
-          25.939741
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-12-24",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "p",
-        "name": "Marco Island, FL, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -80.137317,
-          26.122439
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-12-22",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "p",
-        "name": "Fort Lauderdale, FL, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          6.737034,
-          43.433152
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-08-19",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "p",
-        "name": "Fréjus, France"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          7.261953,
-          43.710173
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-08-18",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "p",
-        "name": "Nice, France"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.4378,
-          50.075538
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-04-03",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "w",
-        "name": "Prague, Czech Republic"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -3.70379,
-          40.416775
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-03-07",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "w",
-        "name": "Madrid, Madrid, Spain"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -117.161084,
-          32.715738
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2013-01-15",
-        "marker-color": "#b2df8a",
-        "marker-symbol": "w",
-        "name": "San Diego, CA, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -80.19179,
-          25.76168
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2012-01-15",
-        "marker-color": "#33a02c",
-        "marker-symbol": "w",
-        "name": "Miami, FL, USA"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          11.255814,
-          43.76956
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2012-04-16",
-        "marker-color": "#33a02c",
-        "marker-symbol": "w",
-        "name": "Florence, Italy"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -0.127758,
-          51.507351
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2012-05-01",
-        "marker-color": "#33a02c",
-        "marker-symbol": "p",
-        "name": "London, UK"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          1.14822,
-          52.056736
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2012-06-01",
-        "marker-color": "#33a02c",
-        "marker-symbol": "w",
-        "name": "Ipswich, Suffolk, UK"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          6.796495,
-          45.5940579
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2012-02-18",
-        "marker-color": "#33a02c",
-        "marker-symbol": "p",
-        "name": "Les Arcs, 73700 Bourg-Saint-Maurice, France"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          6.905578,
-          45.468323
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2011-03-12",
-        "marker-color": "#fb9a99",
-        "marker-symbol": "p",
-        "name": "Tignes, France"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          9.73201,
-          52.375892
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2011-06-17",
-        "marker-color": "#fb9a99",
-        "marker-symbol": "p",
-        "name": "Hanover, Germany"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          11.581981,
-          48.135125
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2011-06-18",
-        "marker-color": "#fb9a99",
-        "marker-symbol": "p",
-        "name": "Munich, Germany"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          13.666439,
-          46.34188
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2011-06-19",
-        "marker-color": "#fb9a99",
-        "marker-symbol": "p",
-        "name": "Soča, Slovenia"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          9.953355,
-          49.791304
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2011-06-26",
-        "marker-color": "#fb9a99",
-        "marker-symbol": "p",
-        "name": "Würzburg, Germany"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          9.544545,
-          61.681191
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2010-07-14",
-        "marker-color": "#e31a1c",
-        "marker-symbol": "p",
-        "name": "Sjoa, Norway"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          11.606919,
-          58.186641
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2010-07-14",
-        "marker-color": "#e31a1c",
-        "marker-symbol": "p",
-        "name": "Orust Municipality, Sweden"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          139.691706,
-          35.689487
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2010-10-04",
-        "marker-color": "#e31a1c",
-        "marker-symbol": "p",
-        "name": "Tokyo, Japan"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          135.768029,
-          35.011636
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2010-10-04",
-        "marker-color": "#e31a1c",
-        "marker-symbol": "p",
-        "name": "Kyoto, Kyoto Prefecture, Japan"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          85.333333,
-          27.7
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#fdbf6f",
-        "marker-symbol": "p",
-        "name": "Kathmandu 44600, Nepal"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          83.972222,
-          28.263889
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#fdbf6f",
-        "marker-symbol": "p",
-        "name": "Pokhara, Nepal"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          84.354205,
-          27.529131
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#fdbf6f",
-        "marker-symbol": "p",
-        "name": "Chitwan, Nepal"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          77.209021,
-          28.613939
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#fdbf6f",
-        "marker-symbol": "p",
-        "name": "New Delhi, Delhi, India"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          78.008074,
-          27.17667
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#fdbf6f",
-        "marker-symbol": "p",
-        "name": "Agra, Uttar Pradesh, India"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -74.005941,
-          40.712784
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2008-09-06",
-        "marker-color": "#ff7f00",
-        "marker-symbol": "p",
-        "name": "New York, NY, USA"
+        "name": "Stockholm, Sweden"
       },
       "type": "Feature"
     },
@@ -650,7 +58,7 @@
       },
       "properties": {
         "date": "2007-09-19",
-        "marker-color": "#cab2d6",
+        "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Casablanca, Morocco"
       },
@@ -666,7 +74,7 @@
       },
       "properties": {
         "date": "2007-09-22",
-        "marker-color": "#cab2d6",
+        "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Rabat, Morocco"
       },
@@ -682,7 +90,7 @@
       },
       "properties": {
         "date": "2007-09-24",
-        "marker-color": "#cab2d6",
+        "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Fes, Morocco"
       },
@@ -698,25 +106,9 @@
       },
       "properties": {
         "date": "2007-09-28",
-        "marker-color": "#cab2d6",
+        "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Todgha Gorge, Tinghir, Morocco"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -7.87216,
-          31.113629
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2007-10-01",
-        "marker-color": "#cab2d6",
-        "marker-symbol": "p",
-        "name": "Toubkal National Park, Morocco"
       },
       "type": "Feature"
     },
@@ -730,9 +122,25 @@
       },
       "properties": {
         "date": "2007-10-01",
-        "marker-color": "#cab2d6",
+        "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Essaouira, Morocco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -7.87216,
+          31.113629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2007-10-01",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Toubkal National Park, Morocco"
       },
       "type": "Feature"
     },
@@ -746,7 +154,7 @@
       },
       "properties": {
         "date": "2007-10-04",
-        "marker-color": "#cab2d6",
+        "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Marrakesh, Morocco"
       },
@@ -755,48 +163,640 @@
     {
       "geometry": {
         "coordinates": [
-          18.068581,
-          59.329323
+          -74.005941,
+          40.712784
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2000-01-01",
-        "marker-color": "#6a3d9a",
+        "date": "2008-09-06",
+        "marker-color": "#b2df8a",
         "marker-symbol": "p",
-        "name": "Stockholm, Sweden"
+        "name": "New York, NY, USA"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          11.91676,
-          57.45263
+          78.008074,
+          27.17667
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2000-01-01",
-        "marker-color": "#6a3d9a",
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
         "marker-symbol": "p",
-        "name": "434 93 Lerkil, Sweden"
+        "name": "Agra, Uttar Pradesh, India"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          12.983333,
-          55.4
+          77.209021,
+          28.613939
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2000-01-01",
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
+        "marker-symbol": "p",
+        "name": "New Delhi, Delhi, India"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          84.354205,
+          27.529131
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
+        "marker-symbol": "p",
+        "name": "Chitwan, Nepal"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          83.972222,
+          28.263889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
+        "marker-symbol": "p",
+        "name": "Pokhara, Nepal"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          85.333333,
+          27.7
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
+        "marker-symbol": "p",
+        "name": "Kathmandu 44600, Nepal"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.544545,
+          61.681191
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2010-07-14",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Sjoa, Norway"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.606919,
+          58.186641
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2010-07-14",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Orust Municipality, Sweden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.768029,
+          35.011636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2010-10-04",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Kyoto, Kyoto Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.691706,
+          35.689487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2010-10-04",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.905578,
+          45.468323
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2011-03-12",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "Tignes, France"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.73201,
+          52.375892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2011-06-17",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "Hanover, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.581981,
+          48.135125
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2011-06-18",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "Munich, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.666439,
+          46.34188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2011-06-19",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "Soča, Slovenia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.953355,
+          49.791304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2011-06-26",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "Würzburg, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.19179,
+          25.76168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-01-15",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "w",
+        "name": "Miami, FL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.796495,
+          45.594058
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-02-18",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "p",
+        "name": "Les Arcs, 73700 Bourg-Saint-Maurice, France"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.255814,
+          43.76956
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-04-16",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "w",
+        "name": "Florence, Italy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.127758,
+          51.507351
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-05-01",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "p",
+        "name": "London, UK"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          1.14822,
+          52.056736
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-06-01",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "w",
+        "name": "Ipswich, Suffolk, UK"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.161084,
+          32.715738
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-01-15",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "w",
+        "name": "San Diego, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.70379,
+          40.416775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-03-07",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.4378,
+          50.075538
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-04-03",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "w",
+        "name": "Prague, Czech Republic"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          7.261953,
+          43.710173
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-08-18",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "p",
+        "name": "Nice, France"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.737034,
+          43.433152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-08-19",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "p",
+        "name": "Fréjus, France"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.137317,
+          26.122439
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-12-22",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "p",
+        "name": "Fort Lauderdale, FL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.707535,
+          25.939741
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-12-24",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "p",
+        "name": "Marco Island, FL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.779987,
+          24.555059
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-12-28",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "p",
+        "name": "Key West, FL 33040, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.990251,
+          39.739236
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-01-15",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Denver, CO, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -43.172897,
+          -22.906847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-05-05",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Rio de Janeiro - State of Rio de Janeiro, Brazil"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.70379,
+          40.416775
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-06-09",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.285313,
+          37.851637
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-06-21",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "p",
+        "name": "Taormina ME, Italy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.960279,
+          50.937531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-10-09",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "p",
+        "name": "Cologne, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -99.133208,
+          19.432608
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-11-03",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Mexico City, Federal District, Mexico"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.270783,
+          25.204849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-11-17",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Dubai - Dubai - United Arab Emirates"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -118.243685,
+          34.052234
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-01-17",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Los Angeles, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.97696,
+          41.00527
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-02-16",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "İstanbul, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          99.957689,
+          12.568375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-02-20",
         "marker-color": "#6a3d9a",
         "marker-symbol": "p",
-        "name": "236 35 Kämpinge, Sweden"
+        "name": "Hua Hin, Hua Hin District, Prachuap Khiri Khan, Thailand"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.501765,
+          13.756331
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-02-22",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "p",
+        "name": "Bangkok, Thailand"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.203921,
+          56.162939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-03-11",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Aarhus, Denmark"
       },
       "type": "Feature"
     }

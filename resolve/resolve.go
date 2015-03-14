@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -106,6 +107,18 @@ func (v *visit) MarshalJSON() ([]byte, error) {
 	})
 }
 
+type visitList []*visit
+
+func (l visitList) Less(a, b int) bool {
+	return l[a].when.Before(l[b].when)
+}
+func (l visitList) Swap(a, b int) {
+	l[a], l[b] = l[b], l[a]
+}
+func (l visitList) Len() int {
+	return len(l)
+}
+
 func main() {
 	file := flag.String("file", "travel.csv", "CSV file name")
 	flag.Parse()
@@ -123,6 +136,8 @@ func main() {
 		in, err = r.Read()
 	}
 	fd.Close()
+
+	sort.Sort(visitList(visits))
 
 	fd, err = os.Create(*file)
 	if err != nil {
