@@ -387,8 +387,8 @@
     {
       "geometry": {
         "coordinates": [
-          6.478446,
-          43.462876
+          6.796495,
+          45.5940579
         ],
         "type": "Point"
       },
@@ -396,7 +396,7 @@
         "date": "2012-02-18",
         "marker-color": "#33a02c",
         "marker-symbol": "p",
-        "name": "Les Arcs, France"
+        "name": "Les Arcs, 73700 Bourg-Saint-Maurice, France"
       },
       "type": "Feature"
     },
