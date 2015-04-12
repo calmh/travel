@@ -110,7 +110,10 @@ func (v *visit) MarshalJSON() ([]byte, error) {
 type visitList []*visit
 
 func (l visitList) Less(a, b int) bool {
-	return l[a].when.Before(l[b].when)
+	if !l[a].when.Equal(l[b].when) {
+		return l[a].when.Before(l[b].when)
+	}
+	return l[a].address < l[b].address
 }
 func (l visitList) Swap(a, b int) {
 	l[a], l[b] = l[b], l[a]

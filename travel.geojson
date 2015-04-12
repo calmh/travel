@@ -195,22 +195,6 @@
     {
       "geometry": {
         "coordinates": [
-          77.209021,
-          28.613939
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#33a02c",
-        "marker-symbol": "p",
-        "name": "New Delhi, Delhi, India"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           84.354205,
           27.529131
         ],
@@ -221,22 +205,6 @@
         "marker-color": "#33a02c",
         "marker-symbol": "p",
         "name": "Chitwan, Nepal"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          83.972222,
-          28.263889
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2009-09-08",
-        "marker-color": "#33a02c",
-        "marker-symbol": "p",
-        "name": "Pokhara, Nepal"
       },
       "type": "Feature"
     },
@@ -259,16 +227,32 @@
     {
       "geometry": {
         "coordinates": [
-          9.544545,
-          61.681191
+          77.209021,
+          28.613939
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2010-07-14",
-        "marker-color": "#fb9a99",
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
         "marker-symbol": "p",
-        "name": "Sjoa, Norway"
+        "name": "New Delhi, Delhi, India"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          83.972222,
+          28.263889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2009-09-08",
+        "marker-color": "#33a02c",
+        "marker-symbol": "p",
+        "name": "Pokhara, Nepal"
       },
       "type": "Feature"
     },
@@ -285,6 +269,22 @@
         "marker-color": "#fb9a99",
         "marker-symbol": "p",
         "name": "Orust Municipality, Sweden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.544545,
+          61.681191
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2010-07-14",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Sjoa, Norway"
       },
       "type": "Feature"
     },
@@ -797,6 +797,38 @@
         "marker-color": "#6a3d9a",
         "marker-symbol": "w",
         "name": "Aarhus, Denmark"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.941025,
+          60.173324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-03-31",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "p",
+        "name": "00100 Helsinki, Finland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.691706,
+          35.689487
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-04-13",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
       },
       "type": "Feature"
     }

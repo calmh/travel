@@ -10,12 +10,12 @@
 2007-10-04,p,"Marrakesh, Morocco",31.630000,-8.008889
 2008-09-06,p,"New York, NY, USA",40.712784,-74.005941
 2009-09-08,p,"Agra, Uttar Pradesh, India",27.176670,78.008074
-2009-09-08,p,"New Delhi, Delhi, India",28.613939,77.209021
 2009-09-08,p,"Chitwan, Nepal",27.529131,84.354205
-2009-09-08,p,"Pokhara, Nepal",28.263889,83.972222
 2009-09-08,p,"Kathmandu 44600, Nepal",27.700000,85.333333
-2010-07-14,p,"Sjoa, Norway",61.681191,9.544545
+2009-09-08,p,"New Delhi, Delhi, India",28.613939,77.209021
+2009-09-08,p,"Pokhara, Nepal",28.263889,83.972222
 2010-07-14,p,"Orust Municipality, Sweden",58.186641,11.606919
+2010-07-14,p,"Sjoa, Norway",61.681191,9.544545
 2010-10-04,p,"Kyoto, Kyoto Prefecture, Japan",35.011636,135.768029
 2010-10-04,p,"Tokyo, Japan",35.689487,139.691706
 2011-03-12,p,"Tignes, France",45.468323,6.905578
@@ -48,3 +48,5 @@
 2015-02-20,p,"Hua Hin, Hua Hin District, Prachuap Khiri Khan, Thailand",12.568375,99.957689
 2015-02-22,p,"Bangkok, Thailand",13.756331,100.501765
 2015-03-11,w,"Aarhus, Denmark",56.162939,10.203921
+2015-03-31,p,"00100 Helsinki, Finland",60.173324,24.941025
+2015-04-13,w,"Tokyo, Japan",35.689487,139.691706
