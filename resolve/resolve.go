@@ -75,7 +75,7 @@ func visitFromStrings(fs []string) *visit {
 	v.lng, _ = strconv.ParseFloat(fs[4], 64)
 
 	if v.lat == 0 && v.lng == 0 {
-		v.lat, v.lng, v.address = loopkup(v.address)
+		v.lat, v.lng, v.address = lookup(v.address)
 	}
 
 	return &v
@@ -86,8 +86,8 @@ func (v *visit) strings() []string {
 		v.when.Format("2006-01-02"),
 		v.purpose,
 		v.address,
-		strconv.FormatFloat(v.lat, 'f', 6, 64),
-		strconv.FormatFloat(v.lng, 'f', 6, 64),
+		strconv.FormatFloat(v.lat, 'f', 4, 64),
+		strconv.FormatFloat(v.lng, 'f', 4, 64),
 	}
 }
 
@@ -95,8 +95,11 @@ func (v *visit) MarshalJSON() ([]byte, error) {
 	return json.Marshal(map[string]interface{}{
 		"type": "Feature",
 		"geometry": map[string]interface{}{
-			"type":        "Point",
-			"coordinates": []float64{v.lng, v.lat},
+			"type": "Point",
+			"coordinates": []float64{
+				float64(int(10000*v.lng)) / 10000,
+				float64(int(10000*v.lat)) / 10000,
+			},
 		},
 		"properties": map[string]interface{}{
 			"marker-symbol": v.purpose,
@@ -168,7 +171,7 @@ func main() {
 	fd.Close()
 }
 
-func loopkup(search string) (lat, lng float64, addr string) {
+func lookup(search string) (lat, lng float64, addr string) {
 	resp, err := http.Get("http://maps.googleapis.com/maps/api/geocode/json?address=" + url.QueryEscape(search))
 	if err != nil {
 		return 0, 0, ""
