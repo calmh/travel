@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
@@ -145,6 +146,11 @@ func main() {
 
 	sort.Sort(visitList(visits))
 
+	purposes := make(map[string]struct{})
+	for _, v := range visits {
+		purposes[v.purpose] = struct{}{}
+	}
+
 	fd, err = os.Create(*file)
 	if err != nil {
 		log.Fatal(err)
@@ -156,14 +162,25 @@ func main() {
 	w.Flush()
 	fd.Close()
 
+	fname := strings.Replace(*file, ".csv", ".geojson", 1)
+	saveVisits(visits, fname)
+
+	for purpose := range purposes {
+		dir := filepath.Dir(fname)
+		base := filepath.Base(fname)
+		tname := filepath.Join(dir, purpose+"-"+base)
+		saveVisits(filterByPurpose(visits, purpose), tname)
+	}
+}
+
+func saveVisits(visits []*visit, fname string) {
 	geojson := map[string]interface{}{
 		"type":     "FeatureCollection",
 		"features": visits,
 	}
 	bs, _ := json.MarshalIndent(geojson, "", "  ")
 
-	fname := strings.Replace(*file, ".csv", ".geojson", 1)
-	fd, err = os.Create(fname)
+	fd, err := os.Create(fname)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -191,4 +208,14 @@ func lookup(search string) (lat, lng float64, addr string) {
 	loc := res.Results[0].Geometry.Location
 	add := res.Results[0].Address
 	return loc.Lat, loc.Lng, add
+}
+
+func filterByPurpose(vs []*visit, purpose string) []*visit {
+	var res []*visit
+	for _, v := range vs {
+		if v.purpose == purpose {
+			res = append(res, v)
+		}
+	}
+	return res
 }
