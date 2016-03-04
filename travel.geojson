@@ -847,6 +847,150 @@
         "name": "Sydney NSW, Australia"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-10-04",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.1069,
+          35.2324
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-10-11",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "p",
+        "name": "Hakone, Ashigarashimo District, Kanagawa Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-01-18",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "San Diego, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-01-25",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -74.0059,
+          40.7128
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-02",
+        "marker-color": "#ffff99",
+        "marker-symbol": "p",
+        "name": "New York, NY, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.2603,
+          53.3498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-14",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Dublin, Ireland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.4511,
+          12.5582
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-20",
+        "marker-color": "#ffff99",
+        "marker-symbol": "p",
+        "name": "Ko Samet, Thailand"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8448,
+          13.3671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-26",
+        "marker-color": "#ffff99",
+        "marker-symbol": "p",
+        "name": "Krong Siem Reap, Cambodia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.5018,
+          13.7563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-29",
+        "marker-color": "#ffff99",
+        "marker-symbol": "p",
+        "name": "Bangkok, Thailand"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"

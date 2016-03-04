@@ -255,6 +255,70 @@
         "name": "Sydney NSW, Australia"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-10-04",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-01-18",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "San Diego, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-01-25",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.2603,
+          53.3498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-14",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Dublin, Ireland"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
