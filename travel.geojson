@@ -991,6 +991,38 @@
         "name": "Bangkok, Thailand"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-10-03",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8677,
+          1.3553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-10-18",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Singapore"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
