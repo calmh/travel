@@ -1012,7 +1012,7 @@
       "geometry": {
         "coordinates": [
           103.8677,
-          1.3553
+          1.3554
         ],
         "type": "Point"
       },
@@ -1021,6 +1021,70 @@
         "marker-color": "#ffff99",
         "marker-symbol": "w",
         "name": "Singapore"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4737,
+          31.2304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-01-13",
+        "marker-color": "#b15928",
+        "marker-symbol": "p",
+        "name": "Shanghai, China"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3517,
+          50.8503
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-02-04",
+        "marker-color": "#b15928",
+        "marker-symbol": "p",
+        "name": "Brussels, Belgium"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.4511,
+          12.5582
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-02-18",
+        "marker-color": "#b15928",
+        "marker-symbol": "p",
+        "name": "Ko Samet, Thailand"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          114.1095,
+          22.3964
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-02-25",
+        "marker-color": "#b15928",
+        "marker-symbol": "p",
+        "name": "Hong Kong"
       },
       "type": "Feature"
     }
