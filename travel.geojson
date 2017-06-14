@@ -1087,6 +1087,70 @@
         "name": "Hong Kong"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.5021,
+          34.6937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-03-14",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Osaka, Osaka Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1955,
+          34.6901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-03-19",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Kobe, Hyogo Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-04-20",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.428,
+          41.9973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-06-11",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Skopje, Macedonia (FYROM)"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
