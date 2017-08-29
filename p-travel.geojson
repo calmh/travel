@@ -735,6 +735,22 @@
         "name": "Hong Kong"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.3155,
+          45.4408
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-08-12",
+        "marker-color": "#b15928",
+        "marker-symbol": "p",
+        "name": "Venice, Metropolitan City of Venice, Italy"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
