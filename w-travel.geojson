@@ -415,6 +415,22 @@
         "name": "Skopje, Macedonia (FYROM)"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -21.8174,
+          64.1264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-05-31",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "w",
+        "name": "Reykjavík, Iceland"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"

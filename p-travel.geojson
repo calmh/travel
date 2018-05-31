@@ -751,6 +751,70 @@
         "name": "Venice, Metropolitan City of Venice, Italy"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2708,
+          25.2048
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-12-20",
+        "marker-color": "#b15928",
+        "marker-symbol": "p",
+        "name": "Dubai - United Arab Emirates"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.9512,
+          60.6548
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-01-22",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Branäs, 680 60 Sysslebäck, Sweden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.7075,
+          25.9396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-03-25",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Marco Island, FL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.1278,
+          51.5073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-05-25",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "London, UK"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
