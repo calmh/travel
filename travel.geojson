@@ -1247,6 +1247,38 @@
         "name": "Reykjavík, Iceland"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1428,
+          38.4237
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-06",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Izmir, İzmir, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.8344,
+          38.1951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-07",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Seferihisar, Düzce Mahallesi, 35460 Seferihisar/İzmir, Turkey"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
