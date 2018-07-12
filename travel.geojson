@@ -1252,7 +1252,7 @@
       "geometry": {
         "coordinates": [
           27.1428,
-          38.4237
+          38.4236
         ],
         "type": "Point"
       },
@@ -1268,7 +1268,7 @@
       "geometry": {
         "coordinates": [
           26.8344,
-          38.1951
+          38.195
         ],
         "type": "Point"
       },
@@ -1277,6 +1277,38 @@
         "marker-color": "#a6cee3",
         "marker-symbol": "p",
         "name": "Seferihisar, Düzce Mahallesi, 35460 Seferihisar/İzmir, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.7579,
+          38.6703
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-08",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Phocaea, Foça/İzmir, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.1404,
+          36.5704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-09",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Ölüdeniz Belediyesi, Ölüdeniz Mahallesi, 48340 Fethiye/Muğla Province, Turkey"
       },
       "type": "Feature"
     }
