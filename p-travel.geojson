@@ -852,7 +852,7 @@
       "geometry": {
         "coordinates": [
           26.7579,
-          38.6703
+          38.6704
         ],
         "type": "Point"
       },
@@ -867,7 +867,7 @@
     {
       "geometry": {
         "coordinates": [
-          29.1404,
+          29.1405,
           36.5704
         ],
         "type": "Point"
@@ -877,6 +877,54 @@
         "marker-color": "#a6cee3",
         "marker-symbol": "p",
         "name": "Ölüdeniz Belediyesi, Ölüdeniz Mahallesi, 48340 Fethiye/Muğla Province, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5541,
+          36.6894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-12",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Mesudiye, Mesudiye Mahallesi, 48900 Datça/Muğla, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.3681,
+          37.9484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-14",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Atatürk Mh., Uğur Mumcu Sevgi Yolu, 35920 Selçuk/İzmir, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4305,
+          37.0344
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-07-14",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Bodrum, Muğla Province, Turkey"
       },
       "type": "Feature"
     }
