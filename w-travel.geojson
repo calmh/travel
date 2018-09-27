@@ -431,6 +431,22 @@
         "name": "Reykjavík, Iceland"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5615,
+          53.9045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-09-26",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "w",
+        "name": "Minsk, Belarus"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
