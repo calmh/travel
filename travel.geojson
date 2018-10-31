@@ -1375,6 +1375,54 @@
         "name": "Minsk, Belarus"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-10-14",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          127.6791,
+          26.2123
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-10-16",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Naha, Okinawa Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          127.9773,
+          26.5915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-10-18",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "p",
+        "name": "Nago, Okinawa Prefecture, Japan"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
