@@ -1380,7 +1380,7 @@
       "geometry": {
         "coordinates": [
           139.6917,
-          35.6894
+          35.6895
         ],
         "type": "Point"
       },
@@ -1395,7 +1395,7 @@
     {
       "geometry": {
         "coordinates": [
-          127.6791,
+          127.6792,
           26.2123
         ],
         "type": "Point"
@@ -1421,6 +1421,54 @@
         "marker-color": "#a6cee3",
         "marker-symbol": "p",
         "name": "Nago, Okinawa Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.5052,
+          41.9044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-01-28",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Rome, Italy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.475,
+          -4.6384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-02-15",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Victoria, Seychelles"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -9.1456,
+          38.7078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-03-09",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Lisbon, Portugal"
       },
       "type": "Feature"
     }
