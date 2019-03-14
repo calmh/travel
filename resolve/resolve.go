@@ -4,10 +4,7 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"flag"
-	"io/ioutil"
 	"log"
-	"net/http"
-	"net/url"
 	"os"
 	"path/filepath"
 	"sort"
@@ -75,10 +72,6 @@ func visitFromStrings(fs []string) *visit {
 	v.address = strings.TrimSpace(fs[2])
 	v.lat, _ = strconv.ParseFloat(strings.TrimSpace(fs[3]), 64)
 	v.lng, _ = strconv.ParseFloat(strings.TrimSpace(fs[4]), 64)
-
-	if v.lat == 0 && v.lng == 0 {
-		v.lat, v.lng, v.address = lookup(v.address)
-	}
 
 	return &v
 }
@@ -187,48 +180,6 @@ func saveVisits(visits []*visit, fname string) {
 	}
 	fd.Write(bs)
 	fd.Close()
-}
-
-func lookup(search string) (lat, lng float64, addr string) {
-	key := os.Getenv("MAPS_API_KEY")
-	query := url.Values{
-		"key":     []string{key},
-		"address": []string{search},
-	}
-	resp, err := http.Get("https://maps.googleapis.com/maps/api/geocode/json?" + query.Encode())
-	if err != nil {
-		log.Printf("Lookup: resolving %s: %v:", search, err)
-		return 0, 0, search
-	}
-	defer resp.Body.Close()
-	if resp.StatusCode > 299 {
-		log.Printf("Lookup: resolving %s: %s", search, resp.Status)
-		return 0, 0, search
-	}
-
-	bs, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Printf("Lookup: resolving %s: %v:", search, err)
-		return 0, 0, search
-	}
-
-	var res result
-	err = json.Unmarshal(bs, &res)
-	if err != nil {
-		log.Printf("Lookup: resolving %s: %v:", search, err)
-		log.Printf("Data: %s", bs)
-		return 0, 0, search
-	}
-
-	if len(res.Results) == 0 {
-		log.Printf("Lookup: resolving %s: no results", search)
-		log.Printf("Data: %s", bs)
-		return 0, 0, search
-	}
-
-	loc := res.Results[0].Geometry.Location
-	add := res.Results[0].Address
-	return loc.Lat, loc.Lng, add
 }
 
 func filterByPurpose(vs []*visit, purpose string) []*visit {
