@@ -70,11 +70,11 @@ func visitFromStrings(fs []string) *visit {
 
 	var v visit
 
-	v.when, _ = time.Parse("2006-01-02", fs[0])
-	v.purpose = fs[1]
-	v.address = fs[2]
-	v.lat, _ = strconv.ParseFloat(fs[3], 64)
-	v.lng, _ = strconv.ParseFloat(fs[4], 64)
+	v.when, _ = time.Parse("2006-01-02", strings.TrimSpace(fs[0]))
+	v.purpose = strings.TrimSpace(fs[1])
+	v.address = strings.TrimSpace(fs[2])
+	v.lat, _ = strconv.ParseFloat(strings.TrimSpace(fs[3]), 64)
+	v.lng, _ = strconv.ParseFloat(strings.TrimSpace(fs[4]), 64)
 
 	if v.lat == 0 && v.lng == 0 {
 		v.lat, v.lng, v.address = lookup(v.address)
