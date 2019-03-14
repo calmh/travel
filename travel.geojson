@@ -1435,7 +1435,7 @@
       "properties": {
         "date": "2019-01-28",
         "marker-color": "#1f78b4",
-        "marker-symbol": "p",
+        "marker-symbol": "w",
         "name": "Rome, Italy"
       },
       "type": "Feature"
@@ -1467,7 +1467,7 @@
       "properties": {
         "date": "2019-03-09",
         "marker-color": "#1f78b4",
-        "marker-symbol": "p",
+        "marker-symbol": "w",
         "name": "Lisbon, Portugal"
       },
       "type": "Feature"

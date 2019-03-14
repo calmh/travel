@@ -979,22 +979,6 @@
     {
       "geometry": {
         "coordinates": [
-          12.5052,
-          41.9044
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2019-01-28",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "p",
-        "name": "Rome, Italy"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           55.475,
           -4.6384
         ],
@@ -1005,22 +989,6 @@
         "marker-color": "#1f78b4",
         "marker-symbol": "p",
         "name": "Victoria, Seychelles"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -9.1456,
-          38.7078
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "date": "2019-03-09",
-        "marker-color": "#1f78b4",
-        "marker-symbol": "p",
-        "name": "Lisbon, Portugal"
       },
       "type": "Feature"
     }
