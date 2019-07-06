@@ -479,6 +479,38 @@
         "name": "Lisbon, Portugal"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -88.012,
+          41.833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-07-01",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "w",
+        "name": "Chicago, IL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -88.107,
+          43.058
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-07-02",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "w",
+        "name": "Milwaukee, WI, USA"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"

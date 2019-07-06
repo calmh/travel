@@ -991,6 +991,70 @@
         "name": "Victoria, Seychelles"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.117,
+          39.939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-06-01",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Beijing, China"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.55,
+          40.432
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-06-02",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Mutianyu Great Wall, Huairou Qu, China"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.977,
+          41.0053
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-06-20",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "İstanbul, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.832,
+          38.647
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-06-23",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "Kapadokya, Turkey"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
