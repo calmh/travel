@@ -1475,6 +1475,22 @@
     {
       "geometry": {
         "coordinates": [
+          1.6505,
+          42.5793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-04-16",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "p",
+        "name": "El Tarter, Andorra"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           116.117,
           39.939
         ],
@@ -1565,6 +1581,38 @@
         "marker-color": "#1f78b4",
         "marker-symbol": "w",
         "name": "Milwaukee, WI, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.475,
+          -4.6384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2020-01-07",
+        "marker-color": "#b2df8a",
+        "marker-symbol": "p",
+        "name": "Victoria, Seychelles"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.0799,
+          44.9693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2020-02-16",
+        "marker-color": "#b2df8a",
+        "marker-symbol": "p",
+        "name": "Vénosc, France"
       },
       "type": "Feature"
     }
