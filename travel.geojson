@@ -1476,7 +1476,7 @@
       "geometry": {
         "coordinates": [
           1.6505,
-          42.5793
+          42.5794
         ],
         "type": "Point"
       },
@@ -1603,8 +1603,8 @@
     {
       "geometry": {
         "coordinates": [
-          6.0799,
-          44.9693
+          6.08,
+          44.9692
         ],
         "type": "Point"
       },
@@ -1613,6 +1613,22 @@
         "marker-color": "#b2df8a",
         "marker-symbol": "p",
         "name": "Vénosc, France"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.3617,
+          27.9654
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2022-03-22",
+        "marker-color": "#33a02c",
+        "marker-symbol": "p",
+        "name": "Sharm el Sheikh, Egypt"
       },
       "type": "Feature"
     }
