@@ -1119,6 +1119,118 @@
         "name": "Sharm el Sheikh, Egypt"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.4919,
+          -4.6796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023-01-05",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Mahe, Seychelles"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.405,
+          52.52
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023-05-17",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Berlin, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.0991,
+          54.0924
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023-05-17",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Rostock, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -157.8583,
+          21.3069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023-10-01",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Honolulu, HI, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -155.9969,
+          19.6399
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2023-10-05",
+        "marker-color": "#fb9a99",
+        "marker-symbol": "p",
+        "name": "Kona, HI, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3517,
+          50.8503
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-02-17",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "Brussels, Belgium"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          6.834,
+          45.634
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-02-17",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "p",
+        "name": "La Rosière, 73700 Montvalezan, France"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
