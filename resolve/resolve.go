@@ -4,10 +4,10 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"flag"
+	"fmt"
 	"log"
 	"os"
-	"path/filepath"
-	"sort"
+	"slices"
 	"strconv"
 	"strings"
 	"time"
@@ -28,36 +28,7 @@ type result struct {
 type visit struct {
 	address  string
 	when     time.Time
-	purpose  string
 	lat, lng float64
-}
-
-var colors = []string{
-	"#a6cee3",
-	"#1f78b4",
-	"#b2df8a",
-	"#33a02c",
-	"#fb9a99",
-	"#e31a1c",
-	"#fdbf6f",
-	"#ff7f00",
-	"#cab2d6",
-	"#6a3d9a",
-	"#ffff99",
-	"#b15928",
-}
-
-var yearToColor = map[int]string{}
-var nextColor = 0
-
-func colorForYear(t time.Time) string {
-	if c, ok := yearToColor[t.Year()]; ok {
-		return c
-	}
-	c := colors[nextColor]
-	nextColor = (nextColor + 1) % len(colors)
-	yearToColor[t.Year()] = c
-	return c
 }
 
 func visitFromStrings(fs []string) *visit {
@@ -68,22 +39,11 @@ func visitFromStrings(fs []string) *visit {
 	var v visit
 
 	v.when, _ = time.Parse("2006-01-02", strings.TrimSpace(fs[0]))
-	v.purpose = strings.TrimSpace(fs[1])
 	v.address = strings.TrimSpace(fs[2])
 	v.lat, _ = strconv.ParseFloat(strings.TrimSpace(fs[3]), 64)
 	v.lng, _ = strconv.ParseFloat(strings.TrimSpace(fs[4]), 64)
 
 	return &v
-}
-
-func (v *visit) strings() []string {
-	return []string{
-		v.when.Format("2006-01-02"),
-		v.purpose,
-		v.address,
-		strconv.FormatFloat(v.lat, 'f', 4, 64),
-		strconv.FormatFloat(v.lng, 'f', 4, 64),
-	}
 }
 
 func (v *visit) MarshalJSON() ([]byte, error) {
@@ -97,27 +57,10 @@ func (v *visit) MarshalJSON() ([]byte, error) {
 			},
 		},
 		"properties": map[string]interface{}{
-			"marker-symbol": v.purpose,
-			"marker-color":  colorForYear(v.when),
-			"date":          v.when.Format("2006-01-02"),
-			"name":          v.address,
+			"date": v.when.Format("2006-01-02"),
+			"name": v.address,
 		},
 	})
-}
-
-type visitList []*visit
-
-func (l visitList) Less(a, b int) bool {
-	if !l[a].when.Equal(l[b].when) {
-		return l[a].when.Before(l[b].when)
-	}
-	return l[a].address < l[b].address
-}
-func (l visitList) Swap(a, b int) {
-	l[a], l[b] = l[b], l[a]
-}
-func (l visitList) Len() int {
-	return len(l)
 }
 
 func main() {
@@ -131,40 +74,28 @@ func main() {
 
 	r := csv.NewReader(fd)
 	var visits []*visit
-	in, err := r.Read()
-	for err == nil {
-		visits = append(visits, visitFromStrings(in))
-		in, err = r.Read()
+	seenCoords := make(map[string]struct{})
+	for {
+		in, err := r.Read()
+		if err != nil {
+			break
+		}
+		visit := visitFromStrings(in)
+		coords := fmt.Sprintf("%.04f,%.04f", visit.lat, visit.lat)
+		if _, ok := seenCoords[coords]; ok {
+			continue
+		}
+		seenCoords[coords] = struct{}{}
+		visits = append(visits, visit)
 	}
 	fd.Close()
 
-	sort.Sort(visitList(visits))
-
-	purposes := make(map[string]struct{})
-	for _, v := range visits {
-		purposes[v.purpose] = struct{}{}
-	}
-
-	fd, err = os.Create(*file)
-	if err != nil {
-		log.Fatal(err)
-	}
-	w := csv.NewWriter(fd)
-	for _, v := range visits {
-		w.Write(v.strings())
-	}
-	w.Flush()
-	fd.Close()
+	slices.SortFunc(visits, func(a, b *visit) int {
+		return a.when.Compare(b.when)
+	})
 
 	fname := strings.Replace(*file, ".csv", ".geojson", 1)
 	saveVisits(visits, fname)
-
-	for purpose := range purposes {
-		dir := filepath.Dir(fname)
-		base := filepath.Base(fname)
-		tname := filepath.Join(dir, purpose+"-"+base)
-		saveVisits(filterByPurpose(visits, purpose), tname)
-	}
 }
 
 func saveVisits(visits []*visit, fname string) {
@@ -180,14 +111,4 @@ func saveVisits(visits []*visit, fname string) {
 	}
 	fd.Write(bs)
 	fd.Close()
-}
-
-func filterByPurpose(vs []*visit, purpose string) []*visit {
-	var res []*visit
-	for _, v := range vs {
-		if v.purpose == purpose {
-			res = append(res, v)
-		}
-	}
-	return res
 }
