@@ -1759,6 +1759,22 @@
         "name": "New Jersey, USA"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-09-28",
+        "marker-color": "#e31a1c",
+        "marker-symbol": "w",
+        "name": "Austin, Texas, USA"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"

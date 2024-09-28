@@ -3,16 +3,528 @@
     {
       "geometry": {
         "coordinates": [
-          -74.4057,
-          40.0583
+          -80.1918,
+          25.7617
         ],
         "type": "Point"
       },
       "properties": {
-        "date": "2024-06-07",
+        "date": "2012-01-15",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "w",
+        "name": "Miami, FL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.2558,
+          43.7695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-04-16",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "w",
+        "name": "Florence, Italy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          1.1482,
+          52.0567
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2012-06-01",
+        "marker-color": "#fdbf6f",
+        "marker-symbol": "w",
+        "name": "Ipswich, Suffolk, UK"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-01-15",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "w",
+        "name": "San Diego, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-03-07",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.4378,
+          50.0755
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2013-04-03",
+        "marker-color": "#ff7f00",
+        "marker-symbol": "w",
+        "name": "Prague, Czech Republic"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -104.9903,
+          39.7391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-01-15",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Denver, CO, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -43.1729,
+          -22.9068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-05-05",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Rio de Janeiro - State of Rio de Janeiro, Brazil"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-06-09",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-11-03",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Mexico City, Federal District, Mexico"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2708,
+          25.2048
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2014-11-17",
+        "marker-color": "#cab2d6",
+        "marker-symbol": "w",
+        "name": "Dubai - Dubai - United Arab Emirates"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-01-17",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Los Angeles, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.977,
+          41.0053
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-02-16",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "İstanbul, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.2039,
+          56.1629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-03-11",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Aarhus, Denmark"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-04-13",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          151.207,
+          -33.8675
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-07-08",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Sydney NSW, Australia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2015-10-04",
+        "marker-color": "#6a3d9a",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-01-18",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "San Diego, CA, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-01-25",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Madrid, Madrid, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.2603,
+          53.3498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-02-14",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Dublin, Ireland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-10-03",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.8677,
+          1.3554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2016-10-18",
+        "marker-color": "#ffff99",
+        "marker-symbol": "w",
+        "name": "Singapore"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.5021,
+          34.6937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-03-14",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Osaka, Osaka Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1955,
+          34.6901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-03-19",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Kobe, Hyogo Prefecture, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-04-20",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Tokyo, Japan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.428,
+          41.9973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2017-06-11",
+        "marker-color": "#b15928",
+        "marker-symbol": "w",
+        "name": "Skopje, Macedonia (FYROM)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -21.8174,
+          64.1264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-05-31",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "w",
+        "name": "Reykjavík, Iceland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.5615,
+          53.9045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2018-09-26",
+        "marker-color": "#a6cee3",
+        "marker-symbol": "w",
+        "name": "Minsk, Belarus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.5052,
+          41.9044
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-01-28",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "w",
+        "name": "Rome, Italy"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -9.1456,
+          38.7078
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-03-09",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "w",
+        "name": "Lisbon, Portugal"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -88.012,
+          41.833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-07-01",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "w",
+        "name": "Chicago, IL, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -88.107,
+          43.058
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2019-07-02",
+        "marker-color": "#1f78b4",
+        "marker-symbol": "w",
+        "name": "Milwaukee, WI, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-09-28",
         "marker-color": "#e31a1c",
-        "marker-symbol": "W",
-        "name": "New Jersey, USA"
+        "marker-symbol": "w",
+        "name": "Austin, Texas, USA"
       },
       "type": "Feature"
     }
