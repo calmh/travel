@@ -1305,6 +1305,20 @@
     {
       "geometry": {
         "coordinates": [
+          26.2258,
+          38.3091
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-07-15",
+        "name": "Cesme, Turkey"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -97.7431,
           30.2672
         ],
@@ -1313,6 +1327,104 @@
       "properties": {
         "date": "2024-09-28",
         "name": "Austin, Texas, USA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          103.6794,
+          1.3139
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-10-29",
+        "name": "Singapore, Singapore"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.4717,
+          50.121
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2024-11-09",
+        "name": "Frankfurt, Germany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          99.8148,
+          10.0922
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025-04-14",
+        "name": "Koh Tao, Thailand"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.4683,
+          13.7245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025-04-24",
+        "name": "Bangkok, Thailand"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.303,
+          36.5163
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025-07-24",
+        "name": "Cadiz, Spain"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -5.3738,
+          36.1295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025-07-27",
+        "name": "Gibraltar, Gibraltar"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.0374,
+          37.3753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "date": "2025-07-28",
+        "name": "Sevilla, Spain"
       },
       "type": "Feature"
     }
